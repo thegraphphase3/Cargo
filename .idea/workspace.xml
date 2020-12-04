@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01127f9e-dc7b-488c-9b59-41345a1f4d83" name="Default Changelist" comment="">
+    <list default="true" id="2ee2cbcc-c54b-48a3-b40e-b4fd2ff25d3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cargo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mapping.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapping.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/subgraph.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/subgraph.yaml" afterDir="false" />
@@ -21,8 +25,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1l6AT38STXocT0XloZ6h0yD8q9L" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1lC3a9MAaXn74X5CS38FNljvvad" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,13 +33,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/abis" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/abis" />
-    </key>
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -96,116 +94,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="01127f9e-dc7b-488c-9b59-41345a1f4d83" name="Default Changelist" comment="" />
-      <created>1606907172327</created>
+      <changelist id="2ee2cbcc-c54b-48a3-b40e-b4fd2ff25d3e" name="Default Changelist" comment="" />
+      <created>1607087307648</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606907172327</updated>
+      <updated>1607087307648</updated>
     </task>
-    <task id="LOCAL-00001" summary="decentr p0">
-      <created>1606917924598</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1606917924598</updated>
-    </task>
-    <task id="LOCAL-00002" summary="decentr p0 - t1">
-      <created>1606937695895</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1606937695896</updated>
-    </task>
-    <task id="LOCAL-00003" summary="decentr p0 - t2">
-      <created>1606937873094</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1606937873094</updated>
-    </task>
-    <task id="LOCAL-00004" summary="decentr p0 - t2">
-      <created>1606937986319</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1606937986320</updated>
-    </task>
-    <task id="LOCAL-00005" summary="decentr p0 - t3">
-      <created>1606938914312</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1606938914312</updated>
-    </task>
-    <task id="LOCAL-00006" summary="decentr p0 - t3">
-      <created>1606939687374</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1606939687374</updated>
-    </task>
-    <task id="LOCAL-00007" summary="&#10;a">
-      <created>1606940244591</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1606940244591</updated>
-    </task>
-    <task id="LOCAL-00008" summary="&#10;a">
-      <created>1606942561647</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1606942561647</updated>
-    </task>
-    <task id="LOCAL-00009" summary="&#10;a">
-      <created>1606943497148</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1606943497148</updated>
-    </task>
-    <task id="LOCAL-00010" summary="&#10;a">
-      <created>1606943966496</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1606943966496</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ts" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="decentr p0" />
-    <MESSAGE value="decentr p0 - t1" />
-    <MESSAGE value="decentr p0 - t2" />
-    <MESSAGE value="decentr p0 - t3" />
-    <MESSAGE value="&#10;a" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;a" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="240" y="65" key="#Web_Browsers" timestamp="1606983230151">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="240" y="65" key="#Web_Browsers/0.0.1280.800@0.0.1280.800" timestamp="1606983230151" />
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606907377007">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1606907377007" />
-    <state x="264" y="0" width="752" height="800" key="CommitChangelistDialog2" timestamp="1606943966059">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="264" y="0" width="752" height="800" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1606943966059" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1606908131346">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1606908131346" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1606943969243">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606943969243" />
   </component>
 </project>

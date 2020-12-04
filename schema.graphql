@@ -3,5 +3,8 @@ type Transfertx @entity {
   from: Bytes!
   to: Bytes!
   value: BigInt!
+  transaction: Bytes! # tx hash
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
 }
 
