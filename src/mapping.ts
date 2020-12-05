@@ -1,5 +1,5 @@
-import { Transfer, Approval } from '../generated/Decent/Decent'
-import { Transfertx, Approvaltx } from '../generated/schema'
+import { Transfer, Approval } from '../generated/Gem/Gem'
+import { Transfertx } from '../generated/schema'
 
 export function handleTransfer(event: Transfer): void {
   let id = event.params.to
@@ -26,7 +26,7 @@ export function handleApproval(event: Approval): void {
             .concat('-')
             .concat(event.logIndex.toString())
 
-  let transfertx = new transfertx(id)
+  let transfertx = new Transfertx(id)
 
   transfertx.from = event.params.owner
   transfertx.to = event.params.spender

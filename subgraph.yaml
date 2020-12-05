@@ -10,6 +10,7 @@ dataSources:
     source:
       address: '0x30B1eFB052205E6CA3c4888C3C50C5b339cc0602'
       abi: Gem
+      startBlock: 6175244
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
