@@ -1,5 +1,5 @@
 import { Transfer, Approval, Gem } from '../generated/Gem/Gem'
-import { Transfertx } from '../generated/schema'
+import { Transfertx, Approvaltx } from '../generated/schema'
 
 export function handleTransfer(event: Transfer): void {
   let id = event.params.to
@@ -36,15 +36,26 @@ export function handleApproval(event: Approval): void {
             .concat('-')
             .concat(event.logIndex.toString())
 
-  let transfertx = new Transfertx(id)
+  let Approvaltx = new Approvaltx(id)
 
-  transfertx.from = event.params.owner
-  transfertx.to = event.params.spender
-  transfertx.value = event.params.value
+// contrat import
+  let contract = Gem.bind(event.address)
 
-  transfertx.transaction = event.transaction.hash
-  transfertx.blockNumber = event.block.number
-  transfertx.blockTimestamp = event.block.timestamp
+  // récup infos
+  let erc20Symbol = contract.symbol()
+  let totalSupply = contract.totalSupply()
 
-  transfertx.save()
+  Approvaltx.erc20Symbol = erc20Symbol
+  Approvaltx.totalSupply = totalSupply
+
+
+  Approvaltx.from = event.params.owner
+  Approvaltx.to = event.params.spender
+  Approvaltx.value = event.params.value
+
+  Approvaltx.transaction = event.transaction.hash
+  Approvaltx.blockNumber = event.block.number
+  Approvaltx.blockTimestamp = event.block.timestamp
+
+  Approvaltx.save()
 }

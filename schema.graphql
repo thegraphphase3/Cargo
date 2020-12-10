@@ -10,3 +10,15 @@ type Transfertx @entity {
   totalSupply: BigInt!
 }
 
+type Approvaltx @entity {
+  id: ID!
+  from: Bytes!
+  to: Bytes!
+  value: BigInt!
+  transaction: Bytes! # tx hash
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  erc20Symbol: String
+  totalSupply: BigInt!
+}
+

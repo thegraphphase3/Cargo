@@ -17,6 +17,7 @@ dataSources:
       language: wasm/assemblyscript
       entities:
         - Transfertx
+        - Approvaltx
       abis:
         - name: Gem
           file: ./abis/Decent.json
