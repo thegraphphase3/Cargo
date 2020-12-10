@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2ee2cbcc-c54b-48a3-b40e-b4fd2ff25d3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/Decent/Decent.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/Gem/Gem.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated/schema.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SashimiSwap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/SashimiSwap/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SashimiSwap/subgraph.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/SashimiSwap/subgraph.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SashimiSwap/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/SashimiSwap/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mapping.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapping.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/subgraph.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/subgraph.yaml" afterDir="false" />
     </list>
@@ -24,6 +25,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1lC3a9MAaXn74X5CS38FNljvvad" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607088154856</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first">
+      <created>1607167621052</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607167621052</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -113,10 +122,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="264" y="2" key="CommitChangelistDialog2" timestamp="1607088154450">
+    <state x="264" y="2" key="CommitChangelistDialog2" timestamp="1607167620462">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="264" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1607088154450" />
+    <state x="264" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1607167620462" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1607088147493">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -125,10 +134,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1607088003536" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1607088163171">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1607167628625">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1607088163171" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1607167628625" />
     <state x="317" y="217" key="com.intellij.ide.util.TipDialog" timestamp="1607158881530">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

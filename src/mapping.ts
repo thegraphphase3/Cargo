@@ -1,4 +1,4 @@
-import { Transfer, Approval } from '../generated/Gem/Gem'
+import { Transfer, Approval, Gem } from '../generated/Gem/Gem'
 import { Transfertx } from '../generated/schema'
 
 export function handleTransfer(event: Transfer): void {
@@ -8,6 +8,16 @@ export function handleTransfer(event: Transfer): void {
             .concat(event.logIndex.toString())
 
   let transfertx = new Transfertx(id)
+
+  // contrat import
+  let contract = Gem.bind(event.address)
+
+  // récup infos
+  let erc20Symbol = contract.symbol()
+  let totalSupply = contract.totalSupply()
+
+  transfertx.erc20Symbol = erc20Symbol
+  transfertx.totalSupply = totalSupply
 
   transfertx.from = event.params.from
   transfertx.to = event.params.to

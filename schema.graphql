@@ -6,5 +6,7 @@ type Transfertx @entity {
   transaction: Bytes! # tx hash
   blockNumber: BigInt!
   blockTimestamp: BigInt!
+  erc20Symbol: String
+  totalSupply: BigInt!
 }
 
